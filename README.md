@@ -4,11 +4,30 @@ Raster logo -> smooth SVG -> choreographed HTML motion.
 
 Pixel2Motion is a Codex skill for turning raster logos into clean, minimal vectors and then into branded motion systems. It fits the source with the lowest-complexity geometry that passes overlay QA, structures the SVG into named animation actors, and ships dependency-free HTML motion with browser evidence.
 
+## Motion Gallery
+
+Claude motion set rendered from `docs/index.html` at each animation's default speed: Horizon 1900ms, Continuum 2000ms, Focus 1700ms, N 2400ms, plus CueRecord at the page-default 0.65x custom timeline.
+
+<table>
+  <tr>
+    <td align="center" width="50%"><strong>Horizon</strong><br><img src="docs/gifs/claude-horizon.gif" width="320" alt="Claude Horizon logo motion preview"></td>
+    <td align="center" width="50%"><strong>Continuum</strong><br><img src="docs/gifs/claude-continuum.gif" width="320" alt="Claude Continuum logo motion preview"></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><strong>Focus</strong><br><img src="docs/gifs/claude-focus.gif" width="320" alt="Claude Focus logo motion preview"></td>
+    <td align="center" width="50%"><strong>CueRecord</strong><br><img src="docs/gifs/claude-cuerecord.gif" width="320" alt="Claude CueRecord logo motion preview"></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><strong>N</strong><br><img src="docs/gifs/claude-n.gif" width="320" alt="Claude N logo motion preview"></td>
+    <td align="center" width="50%"></td>
+  </tr>
+</table>
+
 [![Pixel2Motion project preview](docs/preview.png)](https://nolanlai.github.io/pixel2motion/)
 
 [Live interactive preview](https://nolanlai.github.io/pixel2motion/) · [Skill instructions](SKILL.md)
 
-The README is ordered the way a reviewer should inspect the project: final result first, fitting evidence second, motion examples third, then implementation workflow.
+The README is ordered the way a reviewer should inspect the project: motion examples first, final interactive result second, fitting evidence third, then implementation workflow.
 
 ## Fitting Process
 
@@ -26,25 +45,6 @@ The teal overlays are QA checkpoints, not the deliverable. They show how the vec
 | Final vector | Clean semantic SVG: mark, dot, and wordmark as separate addressable parts. | This becomes the final-frame contract for the animation. |
 
 Pixel2Motion optimizes IoU as a diagnostic, but smoothness and structure are the hard gates. A high-IoU jagged trace is rejected when a lower-complexity smooth vector explains the logo better.
-
-## Motion Gallery
-
-Claude motion set rendered from `docs/index.html` at each animation's default speed: Horizon 1900ms, Continuum 2000ms, Focus 1700ms, N 2400ms, plus CueRecord at the page-default 0.65x custom timeline.
-
-<table>
-  <tr>
-    <td><strong>Horizon</strong><br><img src="docs/gifs/claude-horizon.gif" width="320" alt="Claude Horizon logo motion preview"></td>
-    <td><strong>Continuum</strong><br><img src="docs/gifs/claude-continuum.gif" width="320" alt="Claude Continuum logo motion preview"></td>
-  </tr>
-  <tr>
-    <td><strong>Focus</strong><br><img src="docs/gifs/claude-focus.gif" width="320" alt="Claude Focus logo motion preview"></td>
-    <td><strong>CueRecord</strong><br><img src="docs/gifs/claude-cuerecord.gif" width="320" alt="Claude CueRecord logo motion preview"></td>
-  </tr>
-  <tr>
-    <td><strong>N</strong><br><img src="docs/gifs/claude-n.gif" width="320" alt="Claude N logo motion preview"></td>
-    <td></td>
-  </tr>
-</table>
 
 The full interactive demo is published from `docs/index.html`. After pushing to GitHub, enable GitHub Pages with source `main` / `docs`; the preview will be available at `https://nolanlai.github.io/pixel2motion/`.
 
