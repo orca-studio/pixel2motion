@@ -12,6 +12,25 @@ Use this repository when the request includes logo reveal, brand intro, animated
 
 The interactive preview is published from `docs/index.html`. After pushing this repository to GitHub, enable GitHub Pages with source `main` / `docs`; the demo will be available at `https://nolanlai.github.io/pixel2motion/`.
 
+### Claude Motion Set
+
+Rendered from `docs/index.html` at each animation's default speed: Horizon 1900ms, Continuum 2000ms, Focus 1700ms, CueRecord 1800ms, N 2400ms.
+
+<table>
+  <tr>
+    <td><strong>Horizon</strong><br><img src="docs/gifs/claude-horizon.gif" width="320" alt="Claude Horizon logo motion preview"></td>
+    <td><strong>Continuum</strong><br><img src="docs/gifs/claude-continuum.gif" width="320" alt="Claude Continuum logo motion preview"></td>
+  </tr>
+  <tr>
+    <td><strong>Focus</strong><br><img src="docs/gifs/claude-focus.gif" width="320" alt="Claude Focus logo motion preview"></td>
+    <td><strong>CueRecord</strong><br><img src="docs/gifs/claude-cuerecord.gif" width="320" alt="Claude CueRecord logo motion preview"></td>
+  </tr>
+  <tr>
+    <td><strong>N</strong><br><img src="docs/gifs/claude-n.gif" width="320" alt="Claude N logo motion preview"></td>
+    <td></td>
+  </tr>
+</table>
+
 ## What It Produces
 
 - `logo.svg`: final static vector, structured for motion
@@ -94,7 +113,7 @@ python3 scripts/probe_motion_continuity.py logo_motion.html \
 ## GitHub Upload Checklist
 
 - Confirm `SKILL.md`, `agents/openai.yaml`, `references/`, and `scripts/` are committed.
-- Keep `docs/index.html` and `docs/preview.png` committed if the GitHub Pages preview should ship with the repository.
+- Keep `docs/index.html`, `docs/preview.png`, and `docs/gifs/*.gif` committed if the GitHub Pages and README previews should ship with the repository.
 - Keep generated logo deliverables, motion captures, local virtual environments, caches, and per-logo `outputs/` out of git.
 - Enable GitHub Pages from branch `main`, folder `/docs`, after the first push.
 - Add a `LICENSE` file before publishing if this repository should grant reuse rights.
