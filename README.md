@@ -31,27 +31,27 @@ Each pairing shows the raster source next to the motion output, rendered from `d
   </tr>
   <tr>
     <td align="center" width="50%">
-      <strong>Focus</strong><br>
-      <sub>Pixel source</sub><br>
-      <img src="docs/pixels/focus-pixel.png" width="260" alt="Focus pixel source logo"><br>
-      <sub>Motion output</sub><br>
-      <img src="docs/gifs/claude-focus.gif" width="320" alt="Claude Focus logo motion preview">
-    </td>
-    <td align="center" width="50%">
       <strong>CueRecord</strong><br>
       <sub>Pixel source</sub><br>
       <img src="docs/pixels/cuerecord-pixel.jpg" width="300" alt="CueRecord pixel source logo"><br>
       <sub>Motion output</sub><br>
       <img src="docs/gifs/claude-cuerecord.gif" width="320" alt="Claude CueRecord logo motion preview">
     </td>
-  </tr>
-  <tr>
     <td align="center" width="50%">
       <strong>N</strong><br>
       <sub>Pixel source</sub><br>
       <img src="docs/pixels/n-pixel.png" width="320" alt="N pixel source logo"><br>
       <sub>Motion output</sub><br>
       <img src="docs/gifs/claude-n.gif" width="320" alt="Claude N logo motion preview">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Focus</strong><br>
+      <sub>Pixel source</sub><br>
+      <img src="docs/pixels/focus-pixel.png" width="260" alt="Focus pixel source logo"><br>
+      <sub>Motion output</sub><br>
+      <img src="docs/gifs/claude-focus.gif" width="320" alt="Claude Focus logo motion preview">
     </td>
     <td align="center" width="50%"></td>
   </tr>
