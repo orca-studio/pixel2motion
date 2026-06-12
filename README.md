@@ -2,7 +2,7 @@
 
 **Raster logo → smooth minimal SVG → choreographed HTML motion.**
 
-[Live interactive demo](https://nolanlai.github.io/pixel2motion/) · [Skill instructions](SKILL.md) · [Companion skill: Pixel2SVG-HTML](https://github.com/nolanlai/pixel2svg-html)
+[Live interactive demo](https://nolanlai.github.io/pixel2motion/) · [Skill instructions](https://github.com/nolangz/pixel2motion/blob/main/SKILL.md) · [Companion skill: Pixel2SVG-HTML](https://github.com/nolangz/pixel2svg-html)
 
 Pixel2Motion is a Codex skill for turning raster logos into clean, minimal vectors and then into branded motion systems. It fits the source with the lowest-complexity geometry that passes overlay QA, structures the SVG into named animation actors, and ships dependency-free HTML motion with browser-rendered evidence, applying Disney's 12 principles of animation throughout.
 
@@ -61,7 +61,7 @@ Each pairing shows the raster source next to the motion output, rendered from `d
 
 [![Pixel2Motion project preview](docs/preview.png)](https://nolanlai.github.io/pixel2motion/)
 
-The full interactive showcase is published from `docs/index.html`. After pushing to GitHub, enable GitHub Pages (branch `main`, folder `/docs`); the demo is then served at `https://nolanlai.github.io/pixel2motion/`.
+The full interactive showcase lives in `docs/index.html` and is intended to publish through GitHub Pages at `https://nolanlai.github.io/pixel2motion/`.
 
 ## Fitting Evidence
 
@@ -71,7 +71,7 @@ Every animation is authored against a QA-verified static vector. The CueRecord f
 
 The teal overlays are QA checkpoints, not the deliverable: the vector candidate is repeatedly compared against the raster source until mark scale, dot placement, wordmark baseline, and ink weight hold up — and only then is motion authored on top. The resulting clean semantic SVG, with mark, dot, and wordmark as separate addressable parts, becomes the final-frame contract for the animation.
 
-Pixel2Motion optimizes IoU as a diagnostic, but smoothness and structure are the hard gates. A high-IoU jagged trace is rejected when a lower-complexity smooth vector explains the logo better. The static fitting methodology is documented in full in the companion [Pixel2SVG-HTML](https://github.com/nolanlai/pixel2svg-html) project.
+Pixel2Motion optimizes IoU as a diagnostic, but smoothness and structure are the hard gates. A high-IoU jagged trace is rejected when a lower-complexity smooth vector explains the logo better. The static fitting methodology is documented in full in the companion [Pixel2SVG-HTML](https://github.com/nolangz/pixel2svg-html) project.
 
 ## Deliverables
 
