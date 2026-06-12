@@ -14,7 +14,7 @@ The interactive preview is published from `docs/index.html`. After pushing this 
 
 ### Claude Motion Set
 
-Rendered from `docs/index.html` at each animation's default speed: Horizon 1900ms, Continuum 2000ms, Focus 1700ms, CueRecord 1800ms, N 2400ms.
+Rendered from `docs/index.html` at each animation's default speed: Horizon 1900ms, Continuum 2000ms, Focus 1700ms, N 2400ms, plus CueRecord at the page-default 0.65x custom timeline.
 
 <table>
   <tr>
