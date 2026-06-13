@@ -1,10 +1,12 @@
-# Pixel2Motion
+# Pixel2Motion - AI Logo Animation Skill
 
-**Raster logo → smooth minimal SVG → choreographed HTML motion.**
+**Raster logo → smooth minimal SVG → SVG logo animation → interactive HTML motion demo.**
 
 [Live interactive demo](https://nolangz.github.io/pixel2motion/) · [Skill instructions](https://github.com/nolangz/pixel2motion/blob/main/SKILL.md) · [Companion skill: Pixel2SVG-HTML](https://github.com/nolangz/pixel2svg-html)
 
-Pixel2Motion is a Codex skill for turning raster logos into clean, minimal vectors and then into branded motion systems. It fits the source with the lowest-complexity geometry that passes overlay QA, structures the SVG into named animation actors, and ships dependency-free HTML motion with browser-rendered evidence, applying Disney's 12 principles of animation throughout.
+Pixel2Motion is an open-source Codex and Claude skill for **logo animation**, **SVG animation**, and AI-assisted brand motion. It turns PNG, JPG, WebP, or screenshot logos into clean motion-ready SVG, then exports animated logo HTML, GIF/video previews, and motion QA evidence. Use it for animated logos, SVG logo reveals, logo motion design, pixel-to-vector reconstruction, and developer-friendly HTML animation workflows.
+
+中文：Pixel2Motion 是一个把像素 logo 转成平滑 SVG，再生成品牌 motion、logo reveal、HTML 动效展示和视频预览的 Codex skill。它适合需要可审查矢量拟合、可复用 SVG 结构和可导出动图/透明视频的设计与开发场景。
 
 Recommended review order: the motion gallery below, the interactive demo, the fitting evidence, and then the implementation workflow.
 
